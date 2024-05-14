@@ -30,17 +30,38 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  mongo_dart: ^0.10.1
+  google_nav_bar: ^5.0.6
+  i18n_extension: ^11.0.12
+  http:
+  shared_preferences: 
+  jwt_decoder: 
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  numberpicker: ^2.1.2
+  calendar_date_picker2: ^0.5.5
+  firebase_auth: ^4.19.5
+  firebase_core: ^2.31.0
+  cloud_firestore: ^4.17.3
+  firebase_storage: ^11.7.5
+  firebase_app_check: ^0.2.2+5
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   # shared_preferences:  ^0.4.2 
+  flutter_launcher_icons: ^0.13.1
 
+flutter_icons:
+  image_path: "assets/icons/Logo_icon.png"
+  android: true
+  ios: true
+  # optionally, as transparency is not allowed on app store
+  # remove_alpha_ios: true
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -55,7 +76,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-   - assets/icons/Logo_icon.png
+   - assets/icons/
   fonts:
     - family: Montserrat
       fonts:

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "842770194583",
+    "project_id": "expenditure-app-857c6",
+    "storage_bucket": "expenditure-app-857c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842770194583:android:0890204662421f5d26c9d2",
+        "android_client_info": {
+          "package_name": "com.example.expense_management_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGA-GTnA7A3WK9hq1hqSV9VZ_2NobzTG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
